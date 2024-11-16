@@ -7,7 +7,7 @@ pipeline {
         stage("Code Cloning"){
             steps{
                 sh 'echo "Code is clonning"'
-                git changelog: false, poll: false, url: 'https://github.com/ashishvarshney100/java-sample-project.git'
+                git changelog: false, poll: false, url: 'https://github.com/ashishvarshney100/Ekart.git'
             }
         }
         stage("Build"){
